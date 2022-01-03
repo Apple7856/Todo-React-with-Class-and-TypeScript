@@ -1,0 +1,50 @@
+.card{
+    width: 300px;
+    background-color: white;
+    margin: 10px 0px;
+}
+.desc{
+    width:268px;
+}
+.status{
+    padding-top: 10px;
+}
+
+.eTodoBox{
+    width: 300px;
+    height: 320px;
+    background-color: #fff;
+    color: rgb(47, 47, 201);
+    margin: 5px 0px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.etitle{
+    width: 250px;
+}
+
+.emultilineBox{
+    margin-top: 25px;
+}
+
+.emultiline{
+    width: 250px;
+}
+
+.eformControlBox{
+    margin-top: 5px;
+}
+
+.eformControl{
+    width: 250px;
+}
+
+.ebutton{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}

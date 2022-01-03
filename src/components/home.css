@@ -1,0 +1,19 @@
+.grid1{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(151, 134, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(240, 240, 191);
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}

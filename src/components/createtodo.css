@@ -1,0 +1,37 @@
+.cTodoBox{
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 4px;
+    color: rgb(47, 47, 201);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    width: 300px;
+}
+
+.multilineBox{
+    margin-top: 25px;
+}
+
+.multiline{
+    width: 300px;
+}
+
+.formControlBox{
+    margin-top: 15px;
+}
+
+.formControl{
+    width: 300px;
+}
+
+.button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
