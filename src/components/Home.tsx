@@ -35,7 +35,6 @@ class Home extends React.Component<props, state> {
             editId: "",
             checkStatus: false,
         }
-        this.setState({ items: JSON.parse(localStorage.getItem("data") || "") });
     }
 
     addTodo() {
@@ -119,7 +118,7 @@ class Home extends React.Component<props, state> {
                 <Grid container data-testid="home-1">
                     <Grid item xs={8} className="grid1">
                         <div className="cTodoBox">
-                            <Typography variant='h6' className="text">
+                            <Typography variant='h6' className="text" data-testid="heading">
                                 {
                                     this.state.editForm ? "Edit Todo" : "Create Todo"
                                 }
@@ -159,7 +158,7 @@ class Home extends React.Component<props, state> {
                                     </FormControl>
                                 </div>
                                 <div className="button">
-                                    <Button variant="contained" color="primary" onClick={this.state.editForm ? () => this.updateTodo() : () => this.addTodo()}>
+                                    <Button variant="contained" color="primary" onClick={this.state.editForm ? () => this.updateTodo() : () => this.addTodo()} data-testid="button" className='btn'>
                                         {
                                             this.state.editForm ? "Update Todo" : "Add Todo"
                                         }
